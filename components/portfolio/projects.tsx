@@ -7,6 +7,11 @@ interface ProjectsProps {
 
 export function Projects({ dict }: ProjectsProps) {
   const { projects } = dict;
+  type Project = Dictionary["projects"]["items"][number];
+
+  const sortedItems = [...projects.items].sort(
+    (a: Project, b: Project) => a.order - b.order
+  );
 
   return (
     <section id="projects" className="py-24 px-6">
@@ -16,7 +21,7 @@ export function Projects({ dict }: ProjectsProps) {
         </h2>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.items.map((project) => (
+          {sortedItems.map((project) => (
             <article
               key={project.title}
               className="group relative flex flex-col rounded-xl border border-border bg-card p-6 transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-violet-glow"

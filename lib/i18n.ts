@@ -16,7 +16,7 @@ export const dictionary = {
       greeting: "Hi, I'm",
       name: "Agustin Bogado",
       role: "Frontend / Full-Stack Developer",
-      summary1: "I build accessible, pixel-perfect user interfaces",
+      summary1: "I build accessible, high-quality user interfaces",
       summary2: "that blend thoughtful design with robust engineering.",
       cta: {
         cv: "View CV",
@@ -55,24 +55,47 @@ export const dictionary = {
       items: [
         {
           title: "Hospital Intranet (Internal)",
+          order: 4,
           description:
             "Internal web system with HR workflows, operational modules, notifications and role-based access control for sensitive data.",
-          stack: ["Laravel", "PHP", "React", "TypeScript", "jQuery", "MySQL"],
+          stack: ["Laravel", "PHP", "JavaScript", "jQuery", "MySQL"],
           liveUrl: null,
           repoUrl: null,
           isPrivate: true,
         },
         {
-          title: "Vukip (WIP)",
+          title: "Hospital Privado SADIV — Website",
+          order: 3,
           description:
-            "SaaS for appointment scheduling and business management. Mobile-first experience and API-driven architecture.",
+            "Public website for Hospital Privado SADIV. Migrated the project from a pure React implementation to Next.js with TypeScript, improving structure, maintainability and performance.",
+          stack: ["Next.js", "TypeScript", "React", "Tailwind"],
+          liveUrl: "https://www.hpsadiv.com/",
+          repoUrl: null,
+          isPrivate: true,
+        },
+        {
+          title: "Vukip (WIP)",
+          order: 2,
+          description:
+            "SaaS platform for appointment scheduling and business management, developed under Andes Studio with a mobile-first approach.",
           stack: ["Flutter", "Dart", "REST API", "Laravel"],
           liveUrl: null,
           repoUrl: null,
           isPrivate: true,
         },
         {
+          title: "Andes Studio",
+          order: 1,
+          description:
+            "Website for Andes Studio, a product studio co-founded with colleagues where we design and build digital products such as Vukip.",
+          stack: ["JavaScript", "Vite", "Tailwind CSS", "PostCSS"],
+          liveUrl: "https://andesstudio.tech/",
+          repoUrl: null,
+          isPrivate: false,
+        },
+        {
           title: "Portfolio (This website)",
+          order: 5,
           description:
             "Next.js portfolio with i18n routing (/en, /es), CV embed and project showcase.",
           stack: ["Next.js", "TypeScript", "Tailwind"],
@@ -157,7 +180,7 @@ export const dictionary = {
       },
     },
     about: {
-      title: "Sobre Mi",
+      title: "Sobre mí",
       description:
         "Desarrollador Frontend / Full-Stack enfocado en sistemas en producción. Desarrollo y mantengo aplicaciones internas (React/Next.js + Laravel), trabajando en flujos de aprobación, control de accesos por roles y funcionalidades con impacto medible.",
     },
@@ -185,30 +208,53 @@ export const dictionary = {
       title: "Proyectos",
       items: [
         {
-          title: "Hospital Intranet (Interna)",
+          title: "Hospital Intranet (Interno)",
+          order: 4,
           description:
-            "Sistema web interno para gestión de flujos de trabajo, módulos operacionales, notificaciones y control de acceso por roles para datos sensibles.",
-          stack: ["Next.js", "TypeScript", "Tailwind CSS", "Laravel", "PHP", "MySQL"],
-          liveUrl: null,
-          repoUrl: null,
-          isPrivate: false,
-        },
-        {
-          title: "Vukip (En desarrollo)",
-          description:
-            "SaaS para agendamiento de citas y gestión de negocios. Experiencia móvil y arquitectura API-driven.",
-          stack: ["Next.js", "TypeScript", "Tailwind CSS", "Laravel", "PHP", "MySQL"],
+            "Sistema web interno de SADIV para gestión de flujos de trabajo, módulos operacionales, notificaciones y control de acceso por roles para datos sensibles.",
+          stack: ["Laravel", "PHP", "JavaScript", "jQuery", "MySQL"],
           liveUrl: null,
           repoUrl: null,
           isPrivate: true,
         },
         {
-          title: "Portfolio (Este sitio)",
+          title: "Hospital Privado SADIV — Web",
+          order: 3,
           description:
-            "Portfolio Next.js con enrutamiento i18n (/en, /es), CV incrustado y galería de proyectos.",
-          stack: ["Next.js", "TypeScript", "Tailwind",],
+            "Sitio web público del Hospital Privado SADIV. Migré el proyecto desde una implementación en React puro a Next.js con TypeScript, mejorando la estructura, mantenibilidad y rendimiento.",
+          stack: ["Next.js", "TypeScript", "React", "Tailwind"],
+          liveUrl: "https://www.hpsadiv.com/",
+          repoUrl: null,
+          isPrivate: true,
+        },
+        {
+          title: "Vukip (En desarrollo)",
+          order: 2,
+          description:
+            "Plataforma SaaS para gestión de turnos y administración de negocios, desarrollada bajo Andes Studio con un enfoque móvil.",
+          stack: ["Flutter", "Dart", "REST API", "Laravel"],
           liveUrl: null,
           repoUrl: null,
+          isPrivate: true,
+        },
+        {
+          title: "Andes Studio",
+          order: 1,
+          description:
+            "Sitio web para Andes Studio, un estudio de productos donde diseñamos y construimos productos digitales como Vukip.",
+          stack: ["JavaScript", "Vite", "Tailwind CSS", "PostCSS"],
+          liveUrl: "https://andesstudio.tech/",
+          repoUrl: null,
+          isPrivate: false,
+        },
+        {
+          title: "Portfolio (Este sitio)",
+          order: 5,
+          description:
+            "Portfolio Next.js con enrutamiento i18n (/en, /es), CV incrustado y galería de proyectos. Este mismo sitio.",
+          stack: ["Next.js", "TypeScript", "Tailwind",],
+          liveUrl: "https://agustin-bogado-portfolio.vercel.app",
+          repoUrl: "https://github.com/AgustinBogado/agustin-bogado-portfolio",
           isPrivate: false,
         },
       ],

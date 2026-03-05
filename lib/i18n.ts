@@ -72,12 +72,12 @@ export const dictionary = {
           isPrivate: true,
         },
         {
-          title: "Portfolio (This site)",
+          title: "Portfolio (This website)",
           description:
             "Next.js portfolio with i18n routing (/en, /es), CV embed and project showcase.",
           stack: ["Next.js", "TypeScript", "Tailwind"],
-          liveUrl: "https://agustinbogado.com",
-          repoUrl: "https://github.com/AgustinBogado/portfolio",
+          liveUrl: "https://agustin-bogado-portfolio.vercel.app",
+          repoUrl: "https://github.com/AgustinBogado/agustin-bogado-portfolio",
           isPrivate: false,
         },
       ],
@@ -206,7 +206,7 @@ export const dictionary = {
           title: "Portfolio (Este sitio)",
           description:
             "Portfolio Next.js con enrutamiento i18n (/en, /es), CV incrustado y galería de proyectos.",
-          stack: ["Next.js", "TypeScript", "Tailwind CSS", "Laravel", "PHP", "MySQL"],
+          stack: ["Next.js", "TypeScript", "Tailwind",],
           liveUrl: null,
           repoUrl: null,
           isPrivate: false,

@@ -37,7 +37,7 @@ export const dictionary = {
           role: "Frontend / Full-Stack Developer",
           company: "Hospital Privado SADIV",
           companyUrl: "https://www.hpsadiv.com/",
-          period: "2024 — Present",
+          period: "08/2024 – 05/2026",
           bullets: [
             "Built multi-step approval workflows for HR processes (Vacations, Disciplinary Sanctions) with role-based stages, state tracking and notifications.",
             "Implemented a Vacation request module with tenure-based calculations, remaining-days tracking, and notifications for supervisors, HR, management and replacements (paper usage -4%, lost sheets -100%).",
@@ -135,7 +135,7 @@ export const dictionary = {
     cv: {
       title: "Curriculum Vitae",
       download: "Download CV",
-      pdfUrl: "/cv.pdf",
+      pdfUrl: "/CV_Agustin_Bogado_en.pdf",
     },
     contact: {
       title: "Contact",
@@ -191,7 +191,7 @@ export const dictionary = {
           role: "Frontend / Full-Stack Developer",
           company: "Hospital Privado SADIV",
           companyUrl: "https://www.hpsadiv.com/",
-          period: "2024 — Presente",
+          period: "08/2024 – 05/2026",
           bullets: [
             "Desarrollé flujos de aprobación multi-etapa para procesos de RRHH (Vacaciones, Sanciones disciplinarias) con etapas por rol, seguimiento de estado y notificaciones.",
             "Implementé el módulo de Vacaciones con cálculos por antigüedad, control de días disponibles y notificaciones a supervisión, RRHH, gerencia y reemplazos (papel -4%, pérdida de planillas -100%).",
@@ -289,7 +289,7 @@ export const dictionary = {
     cv: {
       title: "Curriculum Vitae",
       download: "Descargar CV",
-      pdfUrl: "/cv.pdf",
+      pdfUrl: "/CV_Agustin_Bogado_es.pdf",
     },
     contact: {
       title: "Contacto",
